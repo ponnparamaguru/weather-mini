@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .bg{
+        @apply bg-center bg-cover w-full h-screen flex justify-center;
+    }
+    .Summer {
+        @apply bg-[url('/src/asserts/Summer.png')];
+    }
+    .Winter {
+        @apply bg-[url('/src/asserts/Winter.png')];
+    }
+    .Rainy {
+        @apply bg-[url('/src/asserts/Rainy.png')];
+    }
+}
